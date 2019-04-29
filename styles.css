@@ -1,0 +1,162 @@
+.main-index-container{
+    height: 100vh;
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+.index-nav{
+    display: flex;
+    min-height: 4rem;
+    color: #fff;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.index-links{
+    display: flex;
+    flex-direction: row;
+}
+.index-logo{
+    font-weight: 800;
+}
+
+.index-body {
+    display: flex;          
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 72vh;
+    color: #fff;
+    
+}
+
+.index-body > p{
+    width: 100vw;
+    margin: 5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 3em;
+    position: fixed;
+    bottom: 0;
+}
+
+.login-nav{
+    display: flex;
+    min-height: 4rem;
+    color: #fff;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+}
+
+.login-footer{
+    text-align: center;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: 3em;
+    position: fixed;
+    bottom: 0;
+    background-color: #563d7c;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-nav,.right-side-nav{
+    width: 20%
+}
+
+.right-side-nav-products,.left-side-nav-products{
+    width: 0%
+}
+
+.container{
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-items: center; 
+    height: 72vh;
+}
+
+a ,.index-sign-up > a{
+    text-decoration: none;
+    color: inherit;
+    }
+
+    .table .thead-dark th {
+        color: #fff;
+        background-color: #7853af !important;
+        border-color: #7a4ead;
+    }
+
+.index-links > span{
+    padding: 5px;
+}
+
+.container-products{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10vh;
+}
+
+.jumbotron{
+    min-height: 82vh;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+}
+
+.paginator{
+    display: flex;
+    justify-content: flex-end;
+}
+.search-products{
+    display: flex;
+    justify-content: center;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 0.5 !important;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-size: 17px !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #563d7c !important;
+    border-color: #563d7c !important;
+}
+
+.stock-hearder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
